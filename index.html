@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bd697c6c5e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>iTunes Search |</title>
+  </head>
+  <body>
+    <main id="landing">
+      <div class="results">
+        <div class="results__titles">
+          <div class="main-title">
+            <h1 id="artist-name"></h1>
+            <div class="placeHolder"></div>
+          </div>
+        </div>
+        <div class="results__box"></div>
+      </div>
+      <div class="search-container">
+        <div class="search-container-header">
+          <div class="main-title">
+            <h1><i class="fab fa-apple"></i> iTunes Library Search</h1>
+          </div>
+          <p class="lead">
+            Search the iTunes database for the musical work of any artist.
+          </p>
+        </div>
+        <form>
+          <div class="artist-name-input">
+            <label for="name" class="form-label"
+              ><span class="label-content">Artist Name</span></label
+            >
+            <input
+              type="text"
+              name="name"
+              autocomplete="off"
+              placeholder="Ex, Post Malone"
+              class="text-box"
+              required
+            />
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="itunes.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
