@@ -20,7 +20,7 @@ Since this app pulls from various endpoints, it needs to be hosted on a trusted 
 
 # What I'd Like to Fix in the Future
 
-While this app is compatible with small screens, I was not designed mobile first. Since creating this app, I've been designing web pages mobile first which cuts down on unnecessary media queries. If I were to come back to this in the future, I'd overhaul the design to cut down on code and have it be even more responsive.
+While this app is compatible with small screens, it was not designed mobile first. Since creating this app, I've been designing web pages mobile first which cuts down on unnecessary media queries. If I were to come back to this in the future, I'd overhaul the design to cut down on code and have it be even more responsive.
 
 ## Feel free to clone this repository and fix/improve it as you see fit.
 
